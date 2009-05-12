@@ -1,0 +1,111 @@
+@charset "utf-8";
+/**
+ * Sen.extra.CSS dev - Sensible Standards CSS framework extra's
+ *
+ * Copyright (c) 2008-2009 Kilian Valkhof (kilianvalkhof.com)
+ * Visit sencss.kilianvalkhof.com for more information and changelogs.
+ * Licensed under the MIT license. http://www.opensource.org/licenses/mit-license.php
+ *
+ */
+/** Typography classes */
+.amp{
+  font-family:Baskerville, "Goudy Old Style", Palatino, "Book Antiqua", "URW Chancery L", Gentium, serif;
+  font-style:italic;
+}
+.quo{
+  font-family:Georgia, Gentium, "Times New Roman", Times, serif;
+}
+.lquo{
+  font-family:Georgia, Gentium, "Times New Roman", Times, serif;
+  margin:0 0 0 -0.55em;
+}
+/** Messageboxes and aside styles */
+.message{
+  background:#eee;
+  border:1px solid #999;
+  margin:1.5em;
+  padding:0.666em;
+  text-align:center;
+}
+.error{
+  background:#fee;
+  border:1px solid red;
+  margin:1.5em;
+  padding:0.666em;
+  text-align:center;
+}
+.notice{
+  background:#eef;
+  border:1px solid #00f;
+  margin:1.5em;
+  padding:0.666em;
+  text-align:center;
+}
+.success{
+  background:#efe;
+  border:1px solid #0f0;
+  margin:1.5em;
+  padding:0.666em;
+  text-align:center;
+}
+.warning{
+  background:#ffe;
+  border:1px solid #ff0;
+  margin:1.5em;
+  padding:0.666em;
+  text-align:center;
+}
+.aside-left{
+  clear:left;
+  float:left;
+  margin:0 1.5em 0 0;
+}
+.aside-right{
+  clear:right;
+  float:right;
+  margin:0 0 0 1.5em;
+}
+/** Common context-sensitive classes - These names are obnoxious on purpose, I want you to change them into what classname fits with your content. :) */
+.firstParagraphArticle:first-letter{
+  float:left;
+  font-size:3.2em;
+  font-weight:700;
+  line-height:1em;
+  margin:0 0 -0.2em;
+  padding:0.125em 0.1em 0 0;
+}
+.horizontalForm button{
+  clear:left;
+  float:left;
+  margin:0;
+}
+.horizontalForm input,.horizontalForm textarea{
+  float:left;
+  margin:0 0 0.75em;
+  *margin:0 0 0.8em;
+  width:49%;
+}
+.horizontalForm select{
+  float:left;
+  margin:0 0 0.75em;
+  _margin:0 0 1.25em;
+}
+.horizontalForm label{
+  clear:left;
+  float:left;
+  padding:0.375em 0;
+  width:49%;
+}
+.horizontalForm label input{
+  height:1em;
+  line-height:1.5em;
+  margin:0.25em 0.5em 0 0;
+  width:auto;
+}
+.horizontalForm label.singleLine{
+  clear:both;
+  float:none;
+  height:1.5em;
+  padding:0;
+  width:100%;
+}
