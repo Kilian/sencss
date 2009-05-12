@@ -1,0 +1,382 @@
+@charset "utf-8";
+/**
+ * SenCSS 0.7 - Sensible Standards CSS framework
+ *
+ * Copyright (c) 2008-2009 Kilian Valkhof (kilianvalkhof.com)
+ * Visit sencss.kilianvalkhof.com for more information and changelogs.
+ * Licensed under the MIT license. http://www.opensource.org/licenses/mit-license.php
+ *
+ * @todo
+ * - list item on ul
+ * - classes in sen.extra.css
+ * - IE8 check
+ * - horizontal DL in sen.extra.css
+ * - grey message box
+ */
+/**
+ * Basic reset - By Eric meyer and Paul Chaplin, http://meyerweb.com/eric/tools/css/reset/
+ */
+html,body,div,span,applet,object,iframe,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,strong,tt,var,dl,dt,dd,blockquote,fieldset,form,i,b,caption,tbody,tfoot,thead,tr,th,td{
+	margin:0;
+	padding:0;
+	vertical-align:baseline;
+}
+body{
+	background:#fff;
+	color:#000;
+	font:75%/1.5em Arial, Helvetica, "Liberation sans", "Bitstream Vera Sans", sans-serif;
+	position:relative;
+}
+textarea{
+	font:100%/1.5em Arial, Helvetica, "Liberation sans", "Bitstream Vera Sans", sans-serif;
+}
+blockquote,q{
+	quotes:none;
+}
+blockquote:before,blockquote:after,q:before,q:after{
+	content:'';content:none;
+}
+:focus{
+	outline:1px dotted;
+}
+/**
+ * Baseline and common looks - Sets a vertical rhythm and styles the different elements.
+ */
+a{
+	text-decoration:underline;
+}
+a:hover,a:focus{
+	text-decoration:none;
+}
+abbr,acronym{
+	border-bottom:1px dotted;
+	cursor:help;
+	font-variant:small-caps;
+}
+address,cite,em,i{
+	font-style:italic;
+}
+blockquote p{
+	margin:0 1.5em 1.5em;
+	padding:0.75em;
+}
+code,kbd,tt{
+	font-family:"Courier New", Courier, monospace;
+	line-height:1;
+	*line-height:1.5;
+}
+del{
+	text-decoration:line-through;
+}
+dfn{
+	border-bottom:1px dashed;
+	font-style:italic;
+}
+dl{
+	margin:0 0 1.5em;
+}
+dt{
+	font-weight:700;
+}
+dd{
+	padding-left:1.5em;
+}
+h1{
+	font-size:2em;
+	font-weight:700;
+	margin:0 0 0.75em;
+}
+h2{
+	font-size:1.5em;
+	margin:0 0 1em;
+}
+h3{
+	font-size:1.1666em;
+	margin:0 0 1.285em;
+}
+h4{
+	font-size:1em;
+	margin:0 0 1.5em;
+}
+h5{
+	font-size:0.8333em;
+	margin:0 0 1.8em;
+}
+h6{
+	font-size:0.666em;
+	margin:0 0 2.25em;
+}
+img{
+	display:inline-block;
+	vertical-align:bottom;
+}
+ins{
+	text-decoration:overline;
+}
+ol{
+	list-style:inside decimal;
+}
+p{
+	font-weight:300;
+	margin:0 0 1.5em;
+}
+pre{
+	font-family:"Courier New", Courier, monospace;
+	margin:0 0 1.5em;
+}
+sub{
+	top:0.4em;
+	font-size:0.85em;
+	line-height:1;
+	position:relative;
+	vertical-align:baseline;
+}
+sup{
+	font-size:0.85em;
+	line-height:1;
+	position:relative;
+	bottom:0.5em;
+	vertical-align:baseline;
+}
+strong,b{
+	font-weight:700;
+}
+ul{
+	list-style:inside disc;
+}
+ul,ol{
+	margin:0 0 1.5em;
+	padding:0;
+}
+li ul,li ol{
+	margin:0;
+}
+li li{
+	padding-left:1.5em;
+}
+/** tables still need 'cellspacing="0"' in the markup
+ */
+table{
+	border-collapse:collapse;
+	border-spacing:0;
+	margin:0 0 1.5em;
+	padding:0;
+}
+caption{
+	font-style:italic;
+	text-align:left;
+}
+tr.alt td{
+	background:#eee;
+}
+td{
+	border:1px solid #000;
+	padding:0.333em;
+	vertical-align:middle;
+}
+th{
+	font-weight:700;
+	padding:0.333em;
+	vertical-align:middle;
+}
+form button{
+	cursor:pointer;
+	display:block;
+	font-size:1em;
+	height:2em;
+	line-height:1.5em;
+	margin:0.8em 0 0;
+	*margin:1.75em 0 0;
+	padding:0 0.5em;
+}
+form fieldset{
+	border:0;
+	margin:0 0 1.5em;
+	position:relative;
+	padding:1.5em 0 0;
+}
+form fieldset fieldset{
+	clear:both;
+	margin:0 0 1.5em;
+	padding:0 0 0 1.5em;
+}
+form input{
+	border:1px solid #ccc;
+	border-bottom-color:#eee;
+	border-right-color:#eee;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	font-size:1em;
+	height:2.25em;
+	*height:1.5em;
+	line-height:1.5em;
+	padding:0.29em 0;
+	width:100%;
+	margin:0 0 0.75em;
+}
+form input[type=file]{
+	height:2.25em;
+	padding:0;
+}
+form textarea{
+	border:1px solid #ccc;
+	border-bottom-color:#eee;
+	border-right-color:#eee;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	margin:0;
+	padding:0.29em 0;
+	width:100%;
+}
+form select{
+	border:1px solid #ccc;
+	border-bottom-color:#eee;
+	border-right-color:#eee;
+	font-size:1em;
+	height:2.25em;
+	margin:0 0 0.75em;
+	*margin:0 0 0.8em;
+	_margin:0 0 1.3em;
+	padding:0.2em 0 0;
+}
+form optgroup {
+	font-weight:700;
+	font-style:normal;
+	text-indent:0.2em;
+}
+form optgroup + optgroup {
+	margin-top:1em;
+}
+form option{
+	font-size:1em;
+	height:1.5em;
+	padding:0;
+	text-indent:1em;
+}
+form label{
+	cursor:pointer;
+	display:block;
+	height:1.5em;
+	*height:auto;
+	*line-height:1.4em;
+	margin:0;
+	padding:0;
+	width:100%;
+}
+form label input{
+	background:0;
+	border:0;
+	height:1em;
+	*height:1.5em;
+	line-height:1.5em;
+	margin:0 0.5em 0 0;
+	padding:0;
+	width:auto;
+}
+form legend{
+	font-size:1.1666em;
+	font-weight:700;
+	left:0;
+	margin:0;
+	padding:0;
+}
+/**
+ * Common classes - Some base classes for pretty typography, asides and messages.
+ */
+.amp{
+	font-family:Baskerville, "Goudy Old Style", Palatino, "Book Antiqua", "URW Chancery L", Gentium, serif;
+	font-style:italic;
+}
+.aside-left{
+	clear:left;
+	float:left;
+	margin:0 1.5em 0 0;
+}
+.aside-right{
+	clear:right;
+	float:right;
+	margin:0 0 0 1.5em;
+}
+.error{
+	background:#fee;
+	border:1px solid red;
+	margin:1.5em;
+	padding:0.666em;
+	text-align:center;
+}
+.notice{
+	background:#eef;
+	border:1px solid #00f;
+	margin:1.5em;
+	padding:0.666em;
+	text-align:center;
+}
+.success{
+	background:#efe;
+	border:1px solid #0f0;
+	margin:1.5em;
+	padding:0.666em;
+	text-align:center;
+}
+.warning{
+	background:#ffe;
+	border:1px solid #ff0;
+	margin:1.5em;
+	padding:0.666em;
+	text-align:center;
+}
+.quo{
+	font-family:Georgia, Gentium, "Times New Roman", Times, serif;
+}
+.lquo{
+	font-family:Georgia, Gentium, "Times New Roman", Times, serif;
+	margin:0 0 0 -0.55em;
+}
+/**
+ * Common context-sensitive classes - These names are obnoxious on purpose, I want you to change them into what classname fits with your content. :)
+ */
+.firstParagraphArticle:first-letter{
+	float:left;
+	font-size:3.2em;
+	font-weight:700;
+	line-height:1em;
+	margin:0 0 -0.2em;
+	padding:0.125em 0.1em 0 0;
+}
+.horizontalForm button{
+	clear:left;
+	float:left;
+	margin:0;
+}
+.horizontalForm input,.horizontalForm textarea{
+	float:left;
+	margin:0 0 0.75em;
+	*margin:0 0 0.8em;
+	width:49%;
+}
+.horizontalForm select{
+	float:left;
+	margin:0 0 0.75em;
+	_margin:0 0 1.25em;
+}
+.horizontalForm label{
+	clear:left;
+	float:left;
+	padding:0.375em 0;
+	width:49%;
+}
+.horizontalForm label input{
+	height:1em;
+	line-height:1.5em;
+	margin:0.25em 0.5em 0 0;
+	width:auto;
+}
+.horizontalForm label.singleLine{
+	clear:both;
+	float:none;
+	height:1.5em;
+	padding:0;
+	width:100%;
+}
