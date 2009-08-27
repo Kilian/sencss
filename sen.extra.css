@@ -7,7 +7,8 @@
  * Licensed under the MIT license. http://www.opensource.org/licenses/mit-license.php
  *
  */
-/** Typography classes */
+/* Typography classes
+ */
 .amp{
   font-family:Baskerville, "Goudy Old Style", Palatino, "Book Antiqua", "URW Chancery L", Gentium, serif;
   font-style:italic;
@@ -19,7 +20,16 @@
   font-family:Georgia, Gentium, "Times New Roman", Times, serif;
   margin:0 0 0 -0.55em;
 }
-/** Messageboxes and aside styles */
+.introParagraphArticle:first-letter{
+  float:left;
+  font-size:3.2em;
+  font-weight:700;
+  line-height:1em;
+  margin:0 0 -0.2em;
+  padding:0.125em 0.1em 0 0;
+}
+/* Messageboxes and aside styles
+ */
 .message{
   background:#eee;
   border:1px solid #999;
@@ -62,20 +72,12 @@
   margin:0 0 1.5em 1.5em;
   overflow:hidden;
 }
-/** Common context-sensitive classes - These names are obnoxious on purpose, I want you to change them into what classname fits with your content. :) */
-.firstParagraphArticle:first-letter{
-  float:left;
-  font-size:3.2em;
-  font-weight:700;
-  line-height:1em;
-  margin:0 0 -0.2em;
-  padding:0.125em 0.1em 0 0;
-}
+/* horizontal form settings
+ */
 .horizontalForm button{
   clear:left;
   float:left;
   margin:0.25em 0 0;
-
 }
 .horizontalForm input,.horizontalForm textarea{
   float:left;
