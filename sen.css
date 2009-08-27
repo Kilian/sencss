@@ -9,9 +9,7 @@
  * @todo
  * - IE8 check
  */
-/* Basic reset - By Eric meyer and Paul Chaplin, http://meyerweb.com/eric/tools/css/reset/
- */
-html,body,div,span,applet,object,iframe,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,strong,tt,var,dl,dt,dd,blockquote,fieldset,form,i,b,caption,tbody,tfoot,thead,tr,th,td{
+html,body,div,span,object,iframe,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,var,fieldset,form,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,dialog,figure,footer,header,hgroup,menu,nav,section,time,mark,audio,video{
   margin:0;
   padding:0;
   vertical-align:baseline;
@@ -73,7 +71,8 @@ dt{
   font-weight:700;
 }
 dd{
-  padding-left:1.5em;
+  margin-left:1.5em;
+
 }
 h1,h2,h3,h4,h5,h6{
   font-weight:300;
@@ -109,6 +108,12 @@ img{
 }
 ins{
   text-decoration:overline;
+}
+mark {
+  background-color:#ff9;
+  color:#000;
+  font-style:italic;
+  font-weight:bold;
 }
 ol{
   list-style:outside decimal;
@@ -146,7 +151,8 @@ ul,ol{
   padding:0;
 }
 li ul,li ol{
-  padding:0 0 1.5em 0;
+  padding:0;
+  margin:0 0 1.5em 1.5em;
 }
 table{
   border-collapse:collapse;
