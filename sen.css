@@ -175,7 +175,7 @@ th{
   padding:0.333em;
   vertical-align:middle;
 }
-form button{
+button{
   cursor:pointer;
   display:block;
   font-size:1em;
@@ -188,18 +188,18 @@ form button{
 button::-moz-focus-inner {
   border: 0;
 }
-form fieldset{
+fieldset{
   border:0;
   margin:0 0 1.5em;
   position:relative;
   padding:1.5em 0 0;
 }
-form fieldset fieldset{
+fieldset fieldset{
   clear:both;
   margin:0 0 1.5em;
   padding:0 0 0 1.5em;
 }
-form input{
+input{
   border:1px solid #ccc;
   border-bottom-color:#eee;
   border-right-color:#eee;
@@ -214,11 +214,11 @@ form input{
   width:100%;
   margin:0 0 0.75em;
 }
-form input[type=file]{
+input[type=file]{
   height:2.25em;
   padding:0;
 }
-form textarea{
+textarea{
   border:1px solid #ccc;
   border-bottom-color:#eee;
   border-right-color:#eee;
@@ -229,7 +229,7 @@ form textarea{
   padding:0.29em 0;
   width:100%;
 }
-form select{
+select{
   border:1px solid #ccc;
   border-bottom-color:#eee;
   border-right-color:#eee;
@@ -240,21 +240,21 @@ form select{
   _margin:0 0 1.3em;
   padding:0.2em 0 0;
 }
-form optgroup {
+optgroup {
   font-weight:700;
   font-style:normal;
   text-indent:0.2em;
 }
-form optgroup + optgroup {
+optgroup + optgroup {
   margin-top:1em;
 }
-form option{
+option{
   font-size:1em;
   height:1.5em;
   padding:0;
   text-indent:1em;
 }
-form label{
+label{
   cursor:pointer;
   display:block;
   height:1.5em;
@@ -264,7 +264,7 @@ form label{
   padding:0;
   width:100%;
 }
-form label input{
+label input{
   background:0;
   border:0;
   height:1em;
@@ -274,7 +274,7 @@ form label input{
   padding:0;
   width:auto;
 }
-form legend{
+legend{
   font-size:1.1666em;
   font-weight:700;
   left:0;
