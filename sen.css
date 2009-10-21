@@ -206,6 +206,7 @@ input{
   box-sizing:border-box;
   -moz-box-sizing:border-box;
   -webkit-box-sizing:border-box;
+  -ms-box-sizing:border-box;
   font-size:1em;
   height:2.25em;
   *height:1.5em;
@@ -225,6 +226,7 @@ textarea{
   box-sizing:border-box;
   -moz-box-sizing:border-box;
   -webkit-box-sizing:border-box;
+  -ms-box-sizing:border-box;
   margin:0;
   padding:0.29em 0;
   width:100%;
