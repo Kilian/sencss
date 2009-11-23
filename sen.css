@@ -28,7 +28,7 @@ blockquote:before,blockquote:after,q:before,q:after{
   content:'';content:none;
 }
 :focus{
-  outline:1px dotted;
+  outline:none;
 }
 /* Baseline and common looks - Sets a vertical rhythm and styles the different elements.
  */
