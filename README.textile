@@ -1,0 +1,22 @@
+h2. SenCSS - A Sensible Standards CSS baseline
+SenCSs stands for Sensible Standards CSS baseline, (pronounced "sense"). It supplies sensible styling for all repetitive parts of your CSS, and doesn't force a lay-out system on you. This allows you to focus on actually developing your website's style.
+
+h3. What SenCSs is and is not
+
+For one, SenCSs isn’t a framework like other CSS frameworks.
+
+It doesn't include a layout system littered with silly classes and pre-set grids, so what does SenCSs do for you? SenCSs does everything else: baseline, fonts, paddings, margins, tables, lists, headers, blockquotes, forms and more. All the stuff that's almost the same in every project, but that you keep writing again and again …and again. *SenCSs handles that for you. _And nothing more_.*
+
+h3. What does SenCSs do for you?
+  * Stays close to the browsers base styling, but adding some sense to it
+  * Sets a vertical rhythm for all elements (18px baseline)
+  * Sets a common typographic standard across browsers
+  * Has fonts specified for windows, mac and linux
+  * Is optimised, meaning no “double resets”, to make the CSS as efficient as possible
+
+h3. What does SenCSs not do?
+  * Force a lay-out system on you
+  * Sneak in unsemantic classes
+
+Visit "sencss.kilianvalkhof.com":htpp://sencss.kilianvalkhof.com for documentation
+

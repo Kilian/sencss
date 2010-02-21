@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="author" content="Kilian Valkhof" />
+<title>SenCSs - the sensible standards CSS framework</title>
+<link href="source/sen.css" rel="stylesheet" type="text/css" />
+<link href="source/sen.extra.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+body {
+	position:relative;
+	background:url("documentation/baseline.gif") repeat 0 0;
+}
+#wrap {
+	width:560px;
+	margin:auto;
+	padding:1.5em 10px;
+}
+.block {width:45%;float:left;clear:left;}
+.block2{margin-left:10%;clear:none;}
+</style>
+</head>
+<body>
+<div id="wrap">
+<h1><img src="documentation/sencss.png" alt="SenCSs" /></h1>
+
+<p class="firstParagraphArticle">SenCSs stands for Sensible Standards CSS baseline, (pronounced "<em>sense</em>").
+ It supplies <strong>sensible styling</strong> for all
+repetitive parts of your CSS, and doesn't force a lay-out system on you. This allows you to focus on
+<strong>actually developing your website's style</strong>.</p>
+
+<div class="block">
+<h2>Download</h2>
+<ul>
+  <li><a href="">sen.css</a> 5 kb</li>
+  <li><a href="">sen.extra.css</a> 2 kb</li>
+</ul>
+<ul>
+  <li><a href="">sen.min.css</a> 4 kb</li>
+  <li><a href="">sen.extra.min.css</a> 2 kb</li>
+  <li><a href="">sen.full.min.css</a> 5 kb</li>
+</ul>
+</div>
+<div class="block block2">
+<h2>Documentation</h2>
+<p>The <a href="documentation/example.html">example file</a> shows all the functionality SenCSs offers.</p>
+</div>
+<h2 style="clear:both">About SenCSs</h2>
+
+<p class="firstParagraphArticle"><strong>For one, SenCSs isn’t a framework like other CSS frameworks.</strong></p>
+
+<p>It doesn't include a
+layout system littered with silly classes and pre-set grids, so what does SenCSs do for you? SenCSs does <em>everything else</em>:
+baseline, fonts, paddings, margins, tables, lists, headers, blockquotes, forms and more.
+All the stuff that's almost the same in every project, but that you keep writing again and again …and again.
+<strong>SenCSs handles that for you. <em>And nothing more</em>.</strong></p>
+
+<dl>
+	<dt>What does SenCSs do for you?</dt>
+  <dd>Stays close to the browsers base styling, but adding some sense to it</dd>
+	<dd>Sets a vertical rhythm for all elements (18px baseline)</dd>
+  <dd>Sets a common typographic standard across browsers</dd>
+  <dd>Has fonts specified for windows, mac and linux</dd>
+  <dd>Is optimised, meaning no “double resets”, to make the CSS as efficient as possible</dd>
+</dl>
+
+<div class="">
+<h2>Further reading</h2>
+<ul>
+  <li>Read all <a href="http://kilianvalkhof.com/category/sencss/">blogposts tagged with SenCSs</a> for more information</li>
+  <li><a href="http://github.com/kilian/sencss/">SenCSs at GitHub</a></li>
+</ul>
+
+<h2>Thank you!</h2>
+<p>A thank you for the people that in any way contributed, helped and gave feedback.</p>
+<ul>
+  <li>Eric Meyer</li>
+  <li>Paul Chaplin</li>
+  <li>Wouter Klein Heerenbrink</li>
+  <li>Andy Ford (and Sava CMS)</li>
+  <li>Jonathan Snook</li>
+  <li>Bert Visser</li>
+  <li>Matt Varone</li>
+  <li>Anatoli Papirovski</li>
+  <li>Probably some others I shamefully forgot :)</li>
+</ul>
+<div class="notice">
+<h2>Wanna help out?</h2>
+<p>Fork SenCSs on <a href="http://github.com/kilian/sencss">Github</a> or contact me via <a href="http://twitter.com/kilianvalkhof">Twitter</a> or my <a href="http://kilianvalkhof.com/contact">website</a> with ideas. Cheers!</p>
+</div>
+</div>
+
+<h2 style="clear:both;">Changelogs</h2>
+<h3>Changelog for version 0.7 (released 22 February 2010)</h3>
+<ul>
+  <li>move all helper classes to an external file</li>
+  <li>Fix vertical rhythm for certain form elements</li>
+  <li>Remove the text-align center from message styles</li>
+  <li>add explicit font-weight declarations to the heading elements</li>
+  <li>clean up documentation and repository</li>
+  <li>move fully to GitHub</li>
+  <li>hide focus effect on buttons in firefox</li>
+  <li>clean up form css</li>
+  <li>add a number of IE8 fixes</li>
+</ul>
+
+<h3>Changelog for version 0.6 (released 23 February 2009)</h3>
+<ul>
+<li>tweaked sub/sup styling to make them easier to work with</li>
+<li>removed explicit link colour, unneeded background colours, .section declaration</li>
+<li>placed back missing quote functionality in the css reset</li>
+<li>moved list style from the list item to the list container</li>
+<li>fixed safari bug with monospaced fonts</li>
+<li>reworked form styling
+  <ul>
+    <li>added borders</li>
+    <li>refitted to the vertical rhythm</li>
+    <li>added optgroup styling for firefox</li>
+    <li>pixel perfect in firefox and ie6/ie7</li>
+  </ul>
+</li>
+</ul>
+
+<h3>Changelog for version 0.5  (released 24 December 2008)</h3>
+<ul>
+<li>fixed problematic styling of tt/kbd/code and sub/sup in firefox and ie6 + 7 on windows</li>
+<li>removed search form styling, horizontal description lists first-line style</li>
+<li>improved firstParagraph:first-letter</li>
+<li>many form styling improvements</li>
+<li>removed changelogs from the SenCSs file</li>
+<li>start made for @CSSDOC style comments</li>
+</ul>
+<h3>changelog for version 0.4.6 (released 28 July 2008)</h3>
+<ul>
+<li>fixed a missing comma in the font-family of textarea</li>
+<li>fixed a firefox 3 bug and opera bug in .firstParagraphArticle:first-letter</li>
+<li>fixed img styling inside elements</li>
+<li>added table styling</li>
+</ul>
+<h3>changelog for version 0.4.5 (released 21 June 2008)</h3>
+<ul>
+<li>removed background:transparant;</li>
+<li>set explicit focus styles</li>
+<li>added liberation sans as the 2nd fallback font</li>
+<li>removed small-caps from code, kbd and tt</li>
+<li>added a warning style</li>
+<li>changed the first paragraph style
+	<ul>
+		<li>removed all-bold paragraph</li>
+ 		<li>set the first line to bold, removes small-caps</li>
+		<li>positioned the first letter crossbrowser</li>
+	</ul>
+</li>
+<li>added i and b styling</li>
+<li>added a two column DL style</li>
+<li>improved sub rendering in opera and ie</li>
+<li>rewrote all margin-* & padding-* to margin/padding</li>
+<li>added a font-size-adjust to pre, tt, kbd and code</li>
+<li>added explicit line-height for safari 2</li>
+<li>added acronym stylings</li>
+</ul>
+<h3>changelog for version 0.4 (released 15 June 2008)</h3>
+<p>This is the first release, so there are no changes here :)</p>
+
+<p><strong><span class="amp">&amp;</span> this is the last sentence on this page, fin!</strong></p>
+</div>
+</body>
+</html>
+
