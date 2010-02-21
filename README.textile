@@ -1,4 +1,5 @@
 h2. SenCSS - A Sensible Standards CSS baseline
+
 SenCSs stands for Sensible Standards CSS baseline, (pronounced "sense"). It supplies sensible styling for all repetitive parts of your CSS, and doesn't force a lay-out system on you. This allows you to focus on actually developing your website's style.
 
 h3. What SenCSs is and is not
