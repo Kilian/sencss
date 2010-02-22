@@ -176,9 +176,10 @@ th{
   vertical-align:middle;
 }
 button{
+  -x-system-font: none;
   cursor:pointer;
   display:block;
-  font-size:1em;
+  font-size:0.99em;
   height:2em;
   line-height:1.5em;
   margin:0.8em 0 0;
@@ -196,10 +197,11 @@ fieldset{
 }
 fieldset fieldset{
   clear:both;
-  margin:0 0 1.5em;
+  margin:0 0 0.75em;
   padding:0 0 0 1.5em;
 }
 input{
+  -x-system-font: none;
   border:1px solid #ccc;
   border-bottom-color:#eee;
   border-right-color:#eee;
@@ -220,6 +222,7 @@ input[type=file]{
   padding:0;
 }
 textarea{
+  -x-system-font: none;
   border:1px solid #ccc;
   border-bottom-color:#eee;
   border-right-color:#eee;
@@ -236,11 +239,11 @@ select{
   border-bottom-color:#eee;
   border-right-color:#eee;
   font-size:1em;
+  line-height:1.5em;
+  margin-bottom:1.5em;
+  padding:0.25em;
+  display:block;
   height:2.25em;
-  margin:0 0 0.75em;
-  *margin:0 0 0.8em;
-  _margin:0 0 1.3em;
-  padding:0.2em 0 0;
 }
 optgroup {
   font-weight:700;
