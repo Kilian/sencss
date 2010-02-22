@@ -218,7 +218,9 @@ input{
 }
 input[type=file]{
   height:2.25em;
+  font-size:1em;
   padding:0;
+  border:0;
 }
 textarea{
   border:1px solid #ccc;
