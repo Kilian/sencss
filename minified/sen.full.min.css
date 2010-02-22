@@ -60,7 +60,7 @@ label{cursor:pointer;display:block;height:auto;line-height:1.4em;width:100%;marg
 label input{background:0;border:0;height:1.5em;line-height:1.5em;width:auto;margin:0 .5em 0 0;padding:0}
 legend{font-size:1.1666em;font-weight:700;left:0;margin:0;padding:0}
 dt,strong,b{font-weight:700}
- .amp{font-family:Baskerville, "Goudy Old Style", Palatino, "Book Antiqua", "URW Chancery L", Gentium, serif;font-style:italic}
+.amp{font-family:Baskerville, "Goudy Old Style", Palatino, "Book Antiqua", "URW Chancery L", Gentium, serif;font-style:italic}
 .quo{font-family:Georgia, Gentium, "Times New Roman", Times, serif}
 .lquo{font-family:Georgia, Gentium, "Times New Roman", Times, serif;margin:0 0 0 -.55em}
 .introParagraphArticle:first-letter{float:left;font-size:3.2em;font-weight:700;line-height:1em;margin:0 0 -.2em;padding:.125em .1em 0 0}
