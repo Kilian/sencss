@@ -221,6 +221,7 @@ input[type=file]{
   font-size:1em;
   padding:0;
   border:0;
+  border:1px solid #ccc !ie;
 }
 textarea{
   border:1px solid #ccc;
