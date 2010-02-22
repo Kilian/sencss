@@ -201,7 +201,6 @@ fieldset fieldset{
   padding:0 0 0 1.5em;
 }
 input{
-  -x-system-font: none;
   border:1px solid #ccc;
   border-bottom-color:#eee;
   border-right-color:#eee;
@@ -222,7 +221,6 @@ input[type=file]{
   padding:0;
 }
 textarea{
-  -x-system-font: none;
   border:1px solid #ccc;
   border-bottom-color:#eee;
   border-right-color:#eee;
@@ -240,7 +238,7 @@ select{
   border-right-color:#eee;
   font-size:1em;
   line-height:1.5em;
-  margin-bottom:1.5em;
+  margin-bottom:0.75em;
   padding:0.25em;
   display:block;
   height:2.25em;
