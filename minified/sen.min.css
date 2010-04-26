@@ -8,8 +8,8 @@
  *
  */
 html,body,div,span,object,iframe,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,var,fieldset,form,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,dialog,figure,footer,header,hgroup,menu,nav,section,time,mark,audio,video{vertical-align:baseline;margin:0;padding:0}
-body{background:#fff;color:#000;font:75%/1.5em Arial, Helvetica, "Liberation sans", "Bitstream Vera Sans", sans-serif;position:relative}
-textarea{font:100%/1.5em Arial, Helvetica, "Liberation sans", "Bitstream Vera Sans", sans-serif;border:1px solid #ccc;border-bottom-color:#eee;border-right-color:#eee;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-ms-box-sizing:border-box;width:100%;margin:0;padding:.29em 0}
+body{background:#fff;color:#000;font:75%/1.5em Arial, Helvetica, "DejaVu Sans", "Liberation sans", "Bitstream Vera Sans", sans-serif;position:relative}
+textarea{font:101%/1.5em Arial, Helvetica, "DejaVu Sans", "Liberation sans", "Bitstream Vera Sans", sans-serif;border:1px solid #ccc;border-bottom-color:#eee;border-right-color:#eee;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-ms-box-sizing:border-box;width:100%;margin:0;padding:.29em 0}
 blockquote,q{quotes:none}
 blockquote:before,blockquote:after,q:before,q:after{content:none}
 :focus{outline:none}
@@ -51,7 +51,7 @@ button{cursor:pointer;display:block;font-size:1em;height:2em;line-height:1.5em;m
 button::-moz-focus-inner{border:0}
 fieldset{border:0;position:relative;margin:0 0 1.5em;padding:1.5em 0 0}
 fieldset fieldset{clear:both;margin:0 0 1.5em;padding:0 0 0 1.5em}
-input{border:1px solid #ccc;border-bottom-color:#eee;border-right-color:#eee;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-ms-box-sizing:border-box;font-size:1em;height:1.5em;line-height:1.5em;width:100%;margin:0 0 .75em;padding:.29em 0}
+input{border:1px solid #ccc;border-bottom-color:#eee;border-right-color:#eee;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-ms-box-sizing:border-box;font-size:12px;height:1.5em;line-height:1.5em;width:100%;margin:0 0 .75em;padding:.29em 0}
 input[type=file]{height:2.25em;padding:0}
 select{border:1px solid #ccc;border-bottom-color:#eee;border-right-color:#eee;font-size:1em;height:2.25em;_margin:0 0 1.3em;margin:0 0 .8em;padding:.2em 0 0}
 optgroup{font-weight:700;font-style:normal;text-indent:.2em}
