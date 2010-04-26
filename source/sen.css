@@ -34,9 +34,13 @@ blockquote:before,blockquote:after,q:before,q:after{
  */
 a{
   text-decoration:underline;
+  border:0;
 }
 a:hover,a:focus{
   text-decoration:none;
+}
+a img{
+  border:0;
 }
 abbr,acronym{
   border-bottom:1px dotted;

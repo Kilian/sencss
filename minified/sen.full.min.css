@@ -13,8 +13,9 @@ textarea{font:100%/1.5em Arial, Helvetica, "Liberation sans", "Bitstream Vera Sa
 blockquote,q{quotes:none}
 blockquote:before,blockquote:after,q:before,q:after{content:none}
 :focus{outline:none}
-a{text-decoration:underline}
+a{text-decoration:underline;border:0}
 a:hover,a:focus{text-decoration:none}
+a img{border:0}
 abbr,acronym{border-bottom:1px dotted;cursor:help;font-variant:small-caps}
 address,cite,em,i{font-style:italic}
 blockquote p{margin:0 1.5em 1.5em;padding:.75em}
