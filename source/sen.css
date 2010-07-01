@@ -12,6 +12,9 @@ html,body,div,span,object,iframe,blockquote,pre,abbr,address,cite,code,del,dfn,e
   padding:0;
   vertical-align:baseline;
 }
+article,aside,dialog,figure,footer,header,hgroup,menu,nav,section,time,mark,audio,video {
+  display:block;
+}
 body{
   background:#fff;
   color:#000;
