@@ -183,7 +183,6 @@ th{
   vertical-align:middle;
 }
 button{
-  -x-system-font: none;
   cursor:pointer;
   display:block;
   font-size:0.99em;
